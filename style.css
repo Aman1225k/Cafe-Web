@@ -3,9 +3,15 @@
 .nav-item a {
     text-decoration: none;
 }
-
-.navbar-nav nav-item a:hover {
+.nav-btn {
+    border: none;
+    background-color: rgba(254, 254, 254, 0);
+}
+.nav-btn:hover{
     cursor: pointer;
+    border: thin;
+    border-color:rgba(0, 67, 17, 0.818);
+    color:green;
 }
 
 #cafe-name {
@@ -20,11 +26,21 @@ nav {
 }
 
 #img-logo {
-    width: 80px;
-    height: 80px;
+
     float: left;
 }
 #img-main {
-    width: max-content;
-    
+   
+}
+#main-h1{
+    color: white;
+      font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:450;
+      font-style: normal;
+    font-size: 40px;
+}
+#explore-btn{
+    font-size: 20px;
+    color: white;
 }
