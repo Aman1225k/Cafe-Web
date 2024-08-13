@@ -12,25 +12,26 @@
     <title> Cafe Coffee Bar </title>
     <link rel="stylesheet" href="style.css">
     <!--fonts-->
-    <!--CAFE NAME font-->
+    <!--MAIN H1 font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid" style="height: 80px;">
-        <nav class="navbar navbar-expand-sm bg-light mx-5 px-4 mb-3">
-            <div class="container-fluid bg-light mx-5 px-3 my-2" style="height:40px ;">
+    <!--NAVIGATION BAR-->
+    <div class="container-fluid" style="height: 110px;">
+        <nav class="navbar navbar-expand-sm bg-light mx-5 px-4  mb-3">
+            <div class="container-fluid bg-light mx-5 px-3 mb-5" style="height:40px ;">
                 <div class="container-fluid px-0 ms-4 me-0  ">
                     <img class="img-fluid" id="img-logo" src="images/logo.png">
                 </div>
                 <div class="container-fluid bg-light mx-5 px-5">
-                    <button class="navbar-toggler text-center" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler text-center mb-0" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -63,20 +64,19 @@
         </nav>
     </div>
 
-
-    <div class="container-fluid" style="background-color: rgba(0, 67, 17, 0.818);">
+    <!--MAIN PAGE1-->
+    <div class="container-fluid" style=" background-image: url('images/bg1.jpg'); height: 650px;">
         <div class="container mt-0 mb-5 py-3">
             <div class="container mt-4 pt-3" id="main-intro-written">
                 <div class="row">
-                    <div class="col-sm-6 px-5">
-                        <div class="container px-4">
-                            <h2 id="main-h1" class="my-5">INDULGE IN THE PERFECT CUP OF COFFEE, WHERE TASTE MEETS
-                                COMFORT!</h2>
-                                <button class="btn" id="explore-btn">Explore</button>
+                    <div class="col-sm-6 px-2 ps-5  ">
+                        <div class="container px-2">
+                            <h2 id="main-h1" class="my-5" style="font-size: 95px;">Fuel your day with our handcrafted
+                                coffee. </h2>
+                            <!--    <button id="explore-btn">Explore</button> -->
                         </div>
                     </div>
                     <div class="col-sm-6 ">
-                        <img class="img-fluid my-5" id="img-main" src="images/main1.jpg">
                     </div>
                 </div>
 
@@ -84,6 +84,85 @@
         </div>
     </div>
 
+ <!--   <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="images/shop/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/shop/img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/shop/img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/shop/img4.jfif " onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!--PAGE2-->
+    <div class="container-fluid my-5" style="background-image: url('images/bg2.jpg');">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-6 px-5 pb-3">
+                    <img class="img-fluid" id="" src="images/page2.png">
+                </div>
+                <div class="col-sm-6 px-5">
+                    <p id="pg2-para"> We dreamed of creating a space where neighbors could connect over great coffee.
+                        Our
+                        shop is more than just a place to grab a cup; it's a gathering spot for the community to
+                        relax, work, or simply enjoy good company. We're passionate about sourcing the finest beans
+                        and roasting them to perfection, ensuring every cup is a delightful experience.</p>
+                    <button id="about-btn">About Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--PAGE3-->
+    <div class="container-fluid pt-5 mt-5" style="background-color: rgb(1, 80, 1);">
+        <div class="container">
+            <div class="container pt-5">
+                <div class="row text-center ">
+                    <div class="col-sm-4">
+                        <img class="img-mini m-2" src="images/hot-logo.png">
+                        <h4 class="pg3-h4" style="color: white;">Hot Beverages</h4>
+                        <ul class="menu-list p-0">
+                            <li class="list"><a class="list-link" href="">
+                                Espresso</a>
+                            </li>
+                            <li class="list"><a class="list-link" href="">
+                                Cappuccino</a>
+                            </li>
+                            <li class="list"><a class="list-link" href="">
+                                Latte</a>
+                            </li>
+                            <li class="list"><a class="list-link" href="">
+                                Americano</a>
+                            </li>
+                            <li class="list"><a class="list-link" href="">
+                                Mocha</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-mini m-2" src="images/cold-logo.png">
+                        <h4 class="pg3-h4" style="color: white;">Cold Beverages</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-mini m-2" src="images/snacks-logo.jpg">
+                        <h4 class="pg3-h4" style="color: white;">Snacks</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 

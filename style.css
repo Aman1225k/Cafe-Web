@@ -1,24 +1,18 @@
+.nav-link {
+    font-size: 16px;
+}
 
-
-.nav-item a {
+.nav-item {
     text-decoration: none;
 }
-.nav-btn {
-    border: none;
-    background-color: rgba(254, 254, 254, 0);
-}
-.nav-btn:hover{
-    cursor: pointer;
-    border: thin;
-    border-color:rgba(0, 67, 17, 0.818);
-    color:green;
+
+.navbar:hover {
+    border-color: darkgreen;
 }
 
-#cafe-name {
-    float: left;
-    font-family: "Luxurious Roman", serif;
-    font-weight: 400;
-    font-style: normal;
+.nav-btn {
+    border: none;
+    background-color: white;
 }
 
 nav {
@@ -26,21 +20,73 @@ nav {
 }
 
 #img-logo {
-
+    height: 70px;
+    width: 500px;
     float: left;
 }
+
 #img-main {
-   
+    width: auto;
+    ;
+    height: auto;
 }
-#main-h1{
+
+#main-h1 {
     color: white;
-      font-family: "Quicksand", sans-serif;
-      font-optical-sizing: auto;
-      font-weight:450;
-      font-style: normal;
-    font-size: 40px;
+    font-family: "Grey Qo", cursive;
+    font-weight: 350;
+    font-style: normal;
 }
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0);
+}
+
 #explore-btn{
     font-size: 20px;
+    background-color: rgba(143, 190, 140, 0.927);
+    border-radius: 20px;
+    width: 170px;
+    height: 40px;
+    border: none
+}
+
+/* page2*/
+body {
+
+    font-family: "Nanum Myeongjo", serif;
+    font-style: normal;
+}
+#pg2-para{
+    font-weight: 650;
+    font-size: 20px;
+}
+.img-mini {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#about-btn {
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgba(143, 190, 140, 0.927);
+    color: rgb(52, 67, 26);
+    border-radius: 20px;
+    width: 170px;
+    height: 40px;
+    border: none
+}
+/*PAGE3*/
+.pg3-h4 {
+    font-weight: 900;
+    color: rgb(55, 73, 25);
+}
+.list{
+    list-style-type: none;
     color: white;
+    font-weight: 700;
+}
+.list:hover{
+    cursor: pointer;
 }
