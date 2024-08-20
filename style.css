@@ -2,26 +2,26 @@
     font-size: 16px;
 }
 
-.nav-item {
-    text-decoration: none;
+.topnav {
+  background-color: #ffffff00;
+  overflow: hidden;
+}
+.list-link{
+    margin-right: 10px;
 }
 
-.navbar:hover {
-    border-color: darkgreen;
-}
-
-.nav-btn {
+.list-btn{
     border: none;
     background-color: white;
+    font-size: 18px;
 }
 
-nav {
+#topnav-links{
     float: right;
+    margin-top: 70px;
 }
 
 #img-logo {
-    height: 70px;
-    width: 500px;
     float: left;
 }
 
@@ -89,6 +89,7 @@ body {
 }
 .border:hover{
     cursor: pointer;
+    
 }
 .list{
     text-decoration: none;
