@@ -1,4 +1,9 @@
-function myFunction ()
-{
-    location.replace //D:/XAMPP/htdocs/Aman/Cafe-web/menu.html)
+function myFunction(){
+    var x=document.getElementById ("myTopnav");
+    if (x.className === "topnav") {
+        x.className += "responsive";
+    }
+    else {
+        x.className = "topnav";
+    }
 }
