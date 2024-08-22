@@ -1,3 +1,4 @@
+/*INDEX-PAGE*/
 .nav-link {
     font-size: 16px;
 }
@@ -12,11 +13,11 @@
     background-color: white;
     font-size: 18px;
     font-weight: 600;
-    color: rgb(56, 87, 63);
+    color: rgb(115, 52, 98);
 }
 
 .list-btn:hover {
-    background-color: rgba(56, 87, 63, 0.744);
+    background-color: rgb(115, 52, 98);
     color: white;
     border-radius: 5px;
 }
@@ -28,30 +29,26 @@
 
 
 #img-main {
-    width: auto;
-    ;
+    max-width: 100%;
     height: auto;
+ 
 }
 
-#main-h1 {
-    color: white;
-    font-family: "Grey Qo", cursive;
-    font-weight: 350;
-    font-style: normal;
+#main-h1, #main-h6 {
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    color: #fcc7e2;
+}
+
+#main-h6{
+    font-size: 19px;
 }
 
 .navbar-toggler {
     background-color: rgba(255, 255, 255, 0);
 }
 
-#explore-btn {
-    font-size: 20px;
-    background-color: rgba(143, 190, 140, 0.927);
-    border-radius: 20px;
-    width: 160px;
-    height: 40px;
-    border: none
-}
+
 
 /* page2*/
 body {
@@ -74,9 +71,9 @@ body {
 #about-btn {
     font-size: 20px;
     font-weight: 900;
-    background-color: rgba(143, 190, 140, 0.927);
-    color: rgb(52, 67, 26);
-    border-radius: 20px;
+    background-color: #ffb3da;
+    color: rgb(115, 52, 98);
+    border-radius: 2px;
     width: 170px;
     height: 40px;
     border: none
@@ -85,7 +82,7 @@ body {
 /*PAGE3*/
 .pg3-h4 {
     font-weight: 900;
-    color: rgb(55, 73, 25);
+    color: rgb(115, 52, 98);
 }
 
 .list {
@@ -104,5 +101,19 @@ body {
     color: white;
     font-size: 18px;
 }
+#explore-btn {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffb3da;
+    border-radius: 2px;
+    width: 160px;
+    height: 40px;
+    border: none
+}
 
-#col1-pg3 {}
+/*ABOUT-PAGE*/
+
+#h1-about-us {
+    color: rgb(115, 52, 98);
+    font-weight: 700;
+}
