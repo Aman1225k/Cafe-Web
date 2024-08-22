@@ -114,6 +114,12 @@ body {
 /*ABOUT-PAGE*/
 
 #h1-about-us {
-    color: rgb(115, 52, 98);
+    color: #ffb3da;
     font-weight: 700;
+}
+
+#about-pg-para{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
 }
