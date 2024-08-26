@@ -134,8 +134,23 @@ body {
     color: white;
 }
 
+#img-main-aboutpg{
+    max-width: 100%;
+    height: auto;
+}
 /*PAGE END */
  #social-logos{
     height: 33px;
     width: 30px;
+ }
+
+ .social-logos-mini{
+    height: 28px;
+    width: 25px;
+ }
+
+ /*CONTACT PAGE */
+ #submit-btn-contactpg{
+    background-color: rgb(115, 52, 98);
+
  }
