@@ -115,6 +115,12 @@ body {
     border: none
 }
 
+/*PAGE-4*/
+#img-page4-grid{
+    height: 400px;
+}
+
+
 /*ABOUT-PAGE*/
 
 #h1-about-us {
@@ -130,6 +136,6 @@ body {
 
 /*PAGE END */
  #social-logos{
-    height: 38px;
-    width: 35px;
+    height: 33px;
+    width: 30px;
  }
