@@ -32,19 +32,16 @@
 }
 
 
-#img-main {
-  
+#img-main {}
 
- 
-}
-
-#main-h1, #main-h6 {
+#main-h1,
+#main-h6 {
     font-family: "Aboreto", system-ui;
     font-weight: 400;
     color: #fcc7e2;
 }
 
-#main-h6{
+#main-h6 {
     font-size: 19px;
 }
 
@@ -83,6 +80,12 @@ body {
     border: none
 }
 
+#about-btn:hover {
+    color: white;
+    background-color: rgb(115, 52, 98);
+}
+
+
 /*PAGE3*/
 .pg3-h4 {
     font-weight: 900;
@@ -105,6 +108,7 @@ body {
     color: white;
     font-size: 18px;
 }
+
 #explore-btn {
     font-size: 20px;
     font-weight: 600;
@@ -115,8 +119,9 @@ body {
     border: none
 }
 
+
 /*PAGE-4*/
-#img-page4-grid{
+#img-page4-grid {
     height: 400px;
 }
 
@@ -128,28 +133,36 @@ body {
     font-weight: 700;
 }
 
-#about-pg-para{
+#about-pg-para {
     font-weight: 500;
     font-size: 24px;
     color: white;
 }
 
-#img-main-aboutpg{
+#img-main-aboutpg {
     max-width: 100%;
     height: auto;
 }
+
 /*PAGE END */
- #social-logos{
+#social-logos {
     height: 33px;
     width: 30px;
- }
+}
 
- .social-logos-mini{
+.social-logos-mini {
     height: 28px;
     width: 25px;
- }
+}
 
- /*CONTACT PAGE */
- #submit-btn-contactpg{
 
- }
+/*CONTACT PAGE */
+#submit-btn-contactpg {
+    color: white;
+    background-color:rgb(115, 52, 98);
+
+}
+#submit-btn-contactpg:hover {
+    color: rgb(115, 52, 98);
+    background-color: #ffb3da;
+}
