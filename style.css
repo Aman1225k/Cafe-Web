@@ -186,8 +186,9 @@ body {
 
 /* TESTIMONIALS-PG*/
 
-#test-img{
-
+#test-imgs{
+    width: 80px;
+    height: 80px;
 }
 
 
