@@ -182,7 +182,14 @@ body {
 .menu-name{
     font-weight: 600;
 }
+#menu-box{
+    cursor: pointer;
+}
+.menu-links{
+    text-decoration: none;
+}
 
+/*
 
 /* TESTIMONIALS-PG*/
 
@@ -196,7 +203,7 @@ body {
 /*PAGE END */
 #social-logos {
     height: 33px;
-    width: 30px;
+    width: 32px;
 }
 
 .social-logos-mini {
